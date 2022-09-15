@@ -1,0 +1,100 @@
+:root {
+  /* palette */
+  --main-color: rgb(3, 26, 49);
+  --main-accent: rgb(116, 206, 200);
+  --aqua-accent: rgb(108, 180, 175);
+  --nav-accent: rgb(244, 95, 14);
+  --green: rgb(32, 78, 53);
+  --grey: rgb(48, 58, 70);
+  --blue: rgb(6, 89, 122);
+  --gold: rgb(250, 181, 7);
+  --light-gold: rgb(251, 212, 113);
+  --light: rgb(239, 247, 253);
+  /* spacing */
+  --base-space: 1em;
+  --md-space: 2em;
+  --lg-space: 3em;
+  --half-space: 6px;
+}
+body {
+  background-color: var(--main-color);
+}
+.navbar {
+  background-color: black;
+  padding: var(--lg-space);
+}
+.navbar h2 {
+  margin-left: 1em;
+  font-size: 42px;
+}
+.navbar h3 {
+  margin-left: var(--base-space);
+  font-size: 32px;
+}
+.navbar-nav {
+  margin-left: var(--lg-space);
+}
+
+.container1 {
+  margin: var(--base-space);
+  margin-top: var(--lg-space);
+  padding: var(--base-space);
+}
+img {
+    margin-bottom: var(--lg-space);
+    margin-top: var(--md-space);
+    border: 2px solid rgba(7, 7, 8, 0.769);
+    border-radius: 10px;
+}
+
+.projects-title {
+  background-color: var(--blue);
+  color: var(--light);
+  margin-left: var(--md-space);
+  padding: var(--lg-space);
+}
+
+.projects-body {
+  background-color: var(--grey);
+  color: var(--light);
+  padding: var(--lg-space);
+}
+
+a {
+    color: var(--main-accent);
+}
+/* .night-in {
+} */
+a:hover {
+    color: var(--aqua-accent);
+    text-decoration: none;
+}
+.container2 {
+    margin: var(--base-space);
+    padding: var(--base-space);
+  }
+
+.weather-dash {
+    margin-bottom: var(--base-space);
+}
+.projects {
+    background-color: var(--blue);
+    color: var(--light);
+    margin-right: var(--md-space);
+    padding: var(--lg-space);
+  }
+
+  .about {
+    background-color: var(--blue);
+    color: var(--light);
+    margin-right: var(--md-space);
+    padding: var(--lg-space);
+  }
+
+  img:hover{
+    opacity: 0.5;
+  }
+
+  .self:hover{
+    opacity: 1;
+  }
