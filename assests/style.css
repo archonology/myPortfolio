@@ -3,7 +3,7 @@
   --main-color: rgb(3, 26, 49);
   --main-accent: rgb(116, 206, 200);
   --aqua-accent: rgb(108, 180, 175);
-  --nav-accent: rgb(244, 95, 14);
+  --nav-accent: rgb(249, 111, 37);
   --green: rgb(32, 78, 53);
   --grey: rgb(48, 58, 70);
   --blue: rgb(6, 89, 122);
@@ -119,6 +119,7 @@ img:hover {
 }
 footer {
   background-color: black;
+  color: var(--light);
   font-family: var(--font);
   font-size: larger;
   text-align: center;
@@ -126,8 +127,14 @@ footer {
   border: var(--darkdark) var(--hafdistance);
 }
 
-footer a {
-  font-size: 18px;
+.foot-a {
+  color: var(--nav-accent);
+}
+.foot-a:hover {
+  color: var(--gold);
+}
+.foot-b:hover {
+  color: var(--aqua-accent);
 }
 
 @media screen and (max-width: 800px) {
