@@ -53,7 +53,7 @@ img {
   margin-top: var(--md-space);
   border: 2px solid rgba(7, 7, 8, 0.769);
   border-radius: 10px;
-  box-shadow: 7px 7px 10px rgb(36, 36, 36);
+  box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
 }
 
 .projects-title {
@@ -107,7 +107,7 @@ a:hover {
 }
 
 img:hover {
-  opacity: 0.5;
+  box-shadow: 10px 12px 18px rgba(14, 14, 14, 0.609);
 }
 .night-in {
   margin-top: var(--half-space);
