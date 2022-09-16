@@ -18,9 +18,10 @@
 }
 body {
   background-color: var(--main-color);
-  background-image: url(./images/gradient\ texture.jpeg);
+  background-image: linear-gradient(to bottom right, var(--main-color), rgb(6, 57, 123));
+  /* background-image: url(./images/gradient\ texture.jpeg);
   background-blend-mode: multiply;
-  background-size: 50%;
+  background-size: 50%; */
 }
 .navbar {
   background-color: black;
@@ -140,12 +141,12 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-  body {
+  /* body {
     background-color: var(--main-color);
     background-image: url(./images/gradient\ texture.jpeg);
     background-blend-mode: multiply;
     background-size: 100%;
-  }
+  } */
   .projects-title {
     background-color: var(--blue);
     color: var(--light);
