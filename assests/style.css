@@ -49,7 +49,7 @@ body {
   padding: var(--base-space);
 }
 img {
-  margin-bottom: var(--lg-space);
+  margin-bottom: var(--base-space);
   margin-top: var(--md-space);
   border: 2px solid rgba(7, 7, 8, 0.769);
   border-radius: 10px;
