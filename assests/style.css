@@ -40,6 +40,7 @@ body {
 }
 .navbar-nav {
   margin-left: var(--lg-space);
+  font-size: x-large;
 }
 
 .container1 {
@@ -90,6 +91,7 @@ a:hover {
 .weather-dash {
   margin-bottom: var(--base-space);
 }
+
 .projects {
   background-color: var(--blue);
   color: var(--light);
@@ -150,4 +152,8 @@ footer {
     margin-top: var(--md-space);
     padding: var(--lg-space);
   }
+  .video-card {
+    margin-top: var(--lg-space);
+  }
 }
+
