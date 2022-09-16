@@ -29,10 +29,14 @@ body {
 .navbar h2 {
   margin-left: 1em;
   font-size: 42px;
+  color: var(--light);
 }
 .navbar h3 {
   margin-left: var(--base-space);
   font-size: 32px;
+}
+.navbar-title {
+  color: var(--gold);
 }
 .navbar-nav {
   margin-left: var(--lg-space);
@@ -44,13 +48,12 @@ body {
   padding: var(--base-space);
 }
 img {
-    margin-bottom: var(--lg-space);
-    margin-top: var(--md-space);
-    border: 2px solid rgba(7, 7, 8, 0.769);
-    border-radius: 10px;
-    box-shadow: 7px 7px 10px rgb(36, 36, 36);
+  margin-bottom: var(--lg-space);
+  margin-top: var(--md-space);
+  border: 2px solid rgba(7, 7, 8, 0.769);
+  border-radius: 10px;
+  box-shadow: 7px 7px 10px rgb(36, 36, 36);
 }
-
 
 .projects-title {
   background-color: var(--blue);
@@ -65,68 +68,79 @@ img {
   padding: var(--lg-space);
 }
 
+.project-head {
+  padding-bottom: var(--base-space);
+  border-bottom: 2px solid black;
+}
+
 a {
-    color: var(--main-accent);
+  color: var(--main-accent);
 }
 /* .night-in {
 } */
 a:hover {
-    color: var(--aqua-accent);
-    text-decoration: none;
+  color: var(--aqua-accent);
+  text-decoration: none;
 }
 .container2 {
-    margin: var(--base-space);
-    padding: var(--base-space);
-  }
+  margin: var(--base-space);
+  padding: var(--base-space);
+}
 
 .weather-dash {
-    margin-bottom: var(--base-space);
+  margin-bottom: var(--base-space);
 }
 .projects {
-    background-color: var(--blue);
-    color: var(--light);
-    margin-right: var(--md-space);
-    padding: var(--lg-space);
-  }
+  background-color: var(--blue);
+  color: var(--light);
+  margin-right: var(--md-space);
+  padding: var(--lg-space);
+}
 
-  .about {
-    background-color: var(--blue);
-    color: var(--light);
-    margin-right: var(--md-space);
-    padding: var(--lg-space);
-  }
+.about {
+  background-color: var(--blue);
+  color: var(--light);
+  margin-right: var(--md-space);
+  padding: var(--lg-space);
+}
 
-  img:hover{
-    opacity: 0.5;
-  }
+img:hover {
+  opacity: 0.5;
+}
+.night-in {
+  margin-top: var(--half-space);
+}
+.self {
+  margin-top: var(--half-space);
+}
 
-  .self:hover{
-    opacity: 1;
-  }
-  footer {
-    background-color: black;
-    font-family: var(--font);
-    font-size: larger;
-    text-align: center;
-    padding: 2em;
-    border: var(--darkdark) var(--hafdistance);
+.self:hover {
+  opacity: 1;
+}
+footer {
+  background-color: black;
+  font-family: var(--font);
+  font-size: larger;
+  text-align: center;
+  padding: 2em;
+  border: var(--darkdark) var(--hafdistance);
 }
 
 footer a {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-@media screen and (max-width: 800px){
-    body {
-        background-color: var(--main-color);
-        background-image: url(./images/gradient\ texture.jpeg);
-        background-blend-mode: multiply;
-        background-size: 100%;
-      }
-      .projects-title {
-        background-color: var(--blue);
-        color: var(--light);
-        margin-top: var(--md-space);
-        padding: var(--lg-space);
-      }
+@media screen and (max-width: 800px) {
+  body {
+    background-color: var(--main-color);
+    background-image: url(./images/gradient\ texture.jpeg);
+    background-blend-mode: multiply;
+    background-size: 100%;
+  }
+  .projects-title {
+    background-color: var(--blue);
+    color: var(--light);
+    margin-top: var(--md-space);
+    padding: var(--lg-space);
+  }
 }
