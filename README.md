@@ -1,7 +1,7 @@
 # My Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Links
-[Click here to visit this project's repository](https://github.com/archonology/myPortfolio)
+[Click here to visit this project's repository](https://github.com/archonology/myPortfolio) <br>
 [Click here to view the deployed site](https://archonology.github.io/myPortfolio/)
 ## Screenshot
 ![Project Screenshot](./assests/images/myPortfolio%20screenshot.png) 
