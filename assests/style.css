@@ -154,7 +154,7 @@ footer {
     padding: var(--lg-space);
   }
   .video-card {
-    margin-top: var(--lg-space);
+    margin-bottom: var(--lg-space);
   }
 }
 
