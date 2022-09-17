@@ -150,8 +150,12 @@ footer {
   .projects-title {
     background-color: var(--blue);
     color: var(--light);
+    margin-left: 0;
     margin-top: var(--md-space);
     padding: var(--lg-space);
+  }
+  .about {
+    margin-right: 0;
   }
   .video-card {
     margin-bottom: var(--lg-space);
