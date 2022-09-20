@@ -18,7 +18,7 @@
 }
 body {
   background-color: var(--main-color);
-  background-image: linear-gradient(to bottom right, var(--main-color), rgb(6, 57, 123));
+  background-image: linear-gradient(to top right, var(--main-color), rgb(8, 44, 59), rgb(15, 71, 95),rgb(46, 127, 162), rgb(23, 92, 122), var(--main-color));
   /* background-image: url(./images/gradient\ texture.jpeg);
   background-blend-mode: multiply;
   background-size: 50%; */
