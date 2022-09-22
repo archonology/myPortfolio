@@ -1,10 +1,9 @@
 # My Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Links
-[Click here to visit this project's repository](https://github.com/archonology/myPortfolio) <br>
 [Click here to view the deployed site](https://archonology.github.io/myPortfolio/)
 ## Screenshot
-![Project Screenshot](./assests/images/myPortfolio%20screenshot.png) 
+![Project Screenshot](./assests/images/newest%20shot.png) 
 
 ## Table of Contents:
 #### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
