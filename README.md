@@ -6,9 +6,9 @@
 ![Project Screenshot](./assests/images/newest%20shot.png) 
 
 ## Table of Contents:
-#### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
-#### [Questions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#questions)
-#### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)
+#### [Description](#description)
+#### [Questions](#questions)
+#### [License Info](#license-info)
 
 ## Description
 I created this portfolio so I have a place to showcase my current projects. It also is a good place to learn about me and see my current connections via GitHub and LinkdIn. I wanted a portfolio that not only showcases my work beautifully, but that is easy to use and works on a variety of screen sizes. 
