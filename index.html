@@ -1,231 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="./assests/style.css" />
 
-    <title>RM | Portfolio</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
-      <h2 class="navbar-developer">Reed Meher</h2>
-      <h3 class="navbar-title">Web Development Portfolio</h3>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./assests/style.css" />
 
-      <!-- Toggler/collapsibe Button -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <title>RM | Portfolio</title>
+</head>
 
-      <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://github.com/archonology"
-              target="_blank"
-              >GitHub</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://www.linkedin.com/in/reed-meher/"
-              target="_blank"
-              >LinkedIn</a
-            >
-          </li>
-        </ul>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+    <h2 class="navbar-developer">Reed Meher</h2>
+    <h3 class="navbar-title">Web Development Portfolio</h3>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/archonology" target="_blank">GitHub</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/reed-meher/" target="_blank">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <!-- the portfolio project cards-->
+    <div class="container1 row justify-content-center">
+      <div class="col-12 col-md-4 order-2 projects-title">
+        <h1 id="projects">Projects</h1>
+        <p class="project-head">
+          This page features highlight projects I have been developing since
+          June of 2022. If you would like to see more of my work that is in
+          progress, or peak behind the scenes, please check out
+          <a href="https://github.com/archonology"></a>all my repositories on
+          GitHub!
+        </p>
+        <!-- first Project Card(small) -->
+        <a href="https://morning-caverns-74911.herokuapp.com" target="_blank"><img src="./assests/images/Wandering Comma.png"
+            class="card-img-top wander-comma" alt="Wandering Comma screenshot" /></a>
+
+        <h3>The Wandering Comma</h3>
+        <p class="project-head">
+          A developer's work is never done -- especially not when it comes to learning new things. I wanted a place where I could make posts about what I am learning, thoughts on coding, etc. The blog needed to exercise and hone my skills in creating a full stack application. This application allows for users to sign up, login in, and create and edit posts and comments. This application encrypts passwords and stores them hashed securely in the database. I plan to add more features to this application over time, like the ability to add photos. Watch for more to come!
+        </p>
+        <a href="https://github.com/archonology/The-Wandering-Comma-Tech-Blog" target="_blank">Click here to view the Wandering Comma repo in
+          GitHub</a>
+        <!-- 2nd Project Card(small) -->
+        <a href="https://archonology.github.io/Weather-Checker/" target="_blank"><img
+            src="./assests/images/Latest screen shot.png" class="card-img-top weather-dash" alt="Weather Dashboard screenshot" /></a>
+        <h3>Weather Dashboard</h3>
+        <p class="project-head">
+          A weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.
+        </p>
+        <a href="https://github.com/archonology/Weather-Checker" target="_blank">Click here to view Weather-Dashboard on
+          GitHub</a>
+
       </div>
-    </nav>
-    <main>
-      <!-- the portfolio project cards-->
-      <div class="container1 row justify-content-center">
-        <div class="col-12 col-md-4 order-2 projects-title">
-          <h1 id="projects">Projects</h1>
-          <p class="project-head">
-            This page features highlight projects I have been developing since
-            June of 2022. If you would like to see more of my work that is in
-            progress, or peak behind the scenes, please check out
-            <a href="https://github.com/archonology"></a>all my repositories on
-            GitHub!
-          </p>
-          <a href="https://archonology.github.io/Coding-Quiz/" target="_blank"
-            ><img
-              src="./assests/images/Coding Quiz.png"
-              class="card-img-top code-quiz"
-              alt="..."
-          /></a>
 
-          <h3>Javascript Quiz</h3>
-          <p class="project-head">
-            I wanted to build a site where I could easily plug in questions to
-            test myself and others on Javascript and other coding topics. It is
-            timed and records the most recent score you get in localStorage.
-          </p>
-          <a href="https://github.com/archonology/Coding-Quiz" target="_blank"
-            >Click here to view the Quiz repo in GitHub</a
-          >
+      <!-- two featured Projects -->
+      <div class="col-12 col-md-7 order-1 projects-body">
 
-          <a
-            href="https://archonology.github.io/Work-Day-Scheduler/"
-            target="_blank"
-            ><img
-              src="./assests/images/Workday Scehduler.png"
-              class="card-img-top code-quiz"
-              alt="..."
-          /></a>
-
-          <h3>Simple Scheduler</h3>
-          <p class="project-head">
-            This is a simple daily planner I made to practice using moment.js
-            and bootstrap grids. It shows past hours in camel brown, the curren
-            hour in blue, and the upcoming hours in green. If you enter things
-            to do they will be saved upon refresh.
-          </p>
-          <a
-            href="https://github.com/archonology/Work-Day-Scheduler"
-            target="_blank"
-            >Click here to view the scheduler repo on GitHub</a
-          >
-        </div>
-        <div class="col-12 col-md-7 order-1 projects-body">
-          <a
-            href="https://dhoffman03.github.io/A-Night-In/search.html"
-            target="_blank"
-            ><img
-              src="./assests/images/Screen Shot 2022-09-15 at 12.47.32 PM.png"
-              class="card-img-top night-in"
-              alt="screenshot of A Night In"
-          /></a>
-          <h2>A Night In</h2>
-          <p>
-            I worked with a team of two other awesome coders to learn about APIs
-            and generating HTML. We wanted to build a site where searching for
-            ideas for a night in would be fun and more focused than doing
-            numerous searches in different browser windows for food, drinks, and
-            entertainment.
-          </p>
-          <p class="project-head">
-            For my teammates and I, it was an awesome experience to learn about
-            APIs and fetch commands. Our skills were honed and tested. Learn
-            more at our GitHub repo!
-          </p>
-          <a href="https://github.com/dhoffman03/A-Night-In" target="_blank"
-            >Click here to view the Night In repo on GitHub</a
-          >
-          <a
-            href="https://archonology.github.io/Weather-Checker/"
-            target="_blank"
-            ><img
-              src="./assests/images/Latest screen shot.png"
-              class="card-img-top weather-dash"
-              alt="..."
-          /></a>
-
-          <h3>Weather Dashboard</h3>
-          <p class="project-head">
-            The challenge was to make a site for checking weather around the
-            world. Recent searches needed to be saved to localStorage and
-            displayed in the html, so that users can easily call back past
-            searches to monitor the current and upcoming weather.
-          </p>
-          <a
-            href="https://github.com/archonology/Weather-Checker"
-            target="_blank"
-            >Click here to view Weather-Dashboard on GitHub</a
-          >
-        </div>
+        <!-- 1st Featured Project(largest)-->
+        <a href="https://pacific-lake-30103.herokuapp.com" target="_blank"><img src="./assests/images/Home Party.png"
+            class="card-img-top home-party" alt="screenshot of Home Party Site" /></a>
+        <h2>Home Party</h2>
+        <p>
+          A full-stack website built collaboratively. Home Party is a place to invite your family and friends; a place
+          where you can keep track of all your favorite homes... and everything you could put in them.
+        </p>
+        <p class="project-head">
+          It was an awesome experience to have built a full stack website from conception to end product. I and my team
+          learned so much and got so much on the ground experience navigating complex routes and inter-connected table
+          structures. We learned about the tech "Node Mailer" as well as deepened our experience with <strong>Express,
+            Sequelize, MySQL2, Handlebars, Bootstrap, CSS, Javascript, and HTML5</strong>.
+        </p>
+        <a href="https://github.com/archonology/Home-Party" target="_blank">Click here to view the Home Party repo on
+          GitHub</a>
+        <br>
+        <br>
+        <br>
+        <!-- 2nd Featured Project(largest)-->
+        <a href="https://dhoffman03.github.io/A-Night-In/search.html" target="_blank"><img
+            src="./assests/images/Screen Shot 2022-09-15 at 12.47.32 PM.png" class="card-img-top night-in"
+            alt="screenshot of A Night In" /></a>
+        <h2>A Night In</h2>
+        <p>
+          I worked with a team of two other awesome coders to learn about APIs
+          and generating HTML. We wanted to build a site where searching for
+          ideas for a night in would be fun and more focused than doing
+          numerous searches in different browser windows for food, drinks, and
+          entertainment.
+        </p>
+        <p class="project-head">
+          For my teammates and I, it was an awesome experience to learn about
+          APIs and fetch commands. Our skills were honed and tested. Learn
+          more at our GitHub repo!
+        </p>
+        <a href="https://github.com/dhoffman03/A-Night-In" target="_blank">Click here to view the Night In repo on
+          GitHub</a>
+        <br>
+        <br>
+        <br>
       </div>
-      <!-- about me cards-->
-      <div class="container2 row justify-content-center">
-        <div class="col-12 col-md-4 order-4 order-md-3 about">
-          <img
-            src="./assests/images/self portrait.jpeg"
-            class="card-img-top self"
-            alt="..."
-          />
-          <h2 id="about">About Me</h2>
-          <p>
-            I am a father of three wonderful daughters, partner to an amazing
-            hero of a woman, and a budding web developer. My hobbies are art,
-            writing, gaming, long hikes, travel, and music. Learn more about me
-            via LinkedIn and my resume, which is linked below.
-          </p>
-          <p class="project-head">
-            Please reach out if you have questions or comments!
-          </p>
+    </div>
 
-          <a
-            href="./assests/images/Reed Meher Technical Resume - Google Docs.pdf"
-            target="_blank"
-            >Click here to view my resume.</a
-          >
-        </div>
-        <!-- videos? resume? -->
-        <div
-          class="col-12 col-md-7 order-3 order-md-4 projects-body video-card"
-        >
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe
-              width="788"
-              height="443"
-              src="https://www.youtube.com/embed/r-aP_ufH47U"
-              title="Employee Library Demo"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <br />
-          <h2>Employee Library</h2>
-          <p>
-            This program allows the user to seed and administer an employee
-            library. Department, role, and employees can be tracked, added,
-            deleted, and updated. It is useful to be able to administer large
-            databases that are inter-connected via a simple, backend program.
-          </p>
-          <p class="project-head">
-            The video above is a demo of the program's functionality.
-          </p>
-          <a
-            href="https://github.com/archonology/Employee-Library"
-            target="_blank"
-            >Click here to view the Employee-Library repo on GitHub</a
-          >
-        </div>
+    <!-- about me cards-->
+    <div class="container2 row justify-content-center">
+      <div class="col-12 col-md-4 order-4 order-md-3 about">
+        <img src="./assests/images/self portrait.jpeg" class="card-img-top self" alt="..." />
+        <h2 id="about">About Me</h2>
+        <p>
+          I am a father of three wonderful daughters, partner to an amazing
+          hero of a woman, and a budding web developer. My hobbies are art,
+          writing, gaming, long hikes, travel, and music. Learn more about me
+          via LinkedIn and my resume, which is linked below.
+        </p>
+        <p class="project-head">
+          Please reach out if you have questions or comments!
+        </p>
+
+        <a href="./assests/images/Reed Meher Technical Resume - Google Docs.pdf" target="_blank">Click here to view my
+          resume.</a>
       </div>
-    </main>
-    <script src="./assests/script.js"></script>
-    <footer id="contact">
-      <a class="foot-a" href="mailto:reed.meher@gmail.com"
-        >reed.meher@gmail.com</a
-      >
-      | <a class="foot-b">Grand Marais, MN</a> |
-      <a class="foot-b">218.979.2066</a>
-    </footer>
-  </body>
+
+      <!-- Backend Feature -->
+      <div class="col-12 col-md-7 order-3 order-md-4 projects-body video-card">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="703" height="395" src="https://www.youtube.com/embed/L7r7JGepZZ4"
+            title="eCommerce Back End Demo" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <br />
+        <h2>eCommerce Back End</h2>
+        <p>
+          Being able to manage databases for eCommerce is complicated and needs well written code and logical
+          data-handling. This project addresses the essential needs of managing categories of products, products, and
+          tag words that will make it easier for a shopper to find what they are looking for. This is a purely back end
+          exercise, so please check out the video linked above to see how the application functions. With this
+          application, a user is able to create, read, update, and delete products, categories, and product tags.
+          <strong>Used Javascript, Inquierer, Express, MySQL2, and Sequelize.</strong>
+        </p>
+        <p class="project-head">
+          The video above is a demo of the program's functionality.
+        </p>
+        <a href="https://github.com/archonology/E-Commerce-Back-End" target="_blank">Click here to view the
+          eCommerce Back End repo on GitHub</a>
+      </div>
+    </div>
+  </main>
+  <script src="./assests/script.js"></script>
+  <footer id="contact">
+    <a class="foot-a" href="mailto:reed.meher@gmail.com">reed.meher@gmail.com</a>
+    | <a class="foot-b">Grand Marais, MN</a> |
+    <a class="foot-b">218.979.2066</a>
+  </footer>
+</body>
+
 </html>
