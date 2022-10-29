@@ -3,7 +3,7 @@
 ## Links
 [Click here to view the deployed site](https://archonology.github.io/myPortfolio/)
 ## Screenshot
-![Project Screenshot](./assests/images/newest%20shot.png) 
+![Project Screenshot](./assests/images/portfolio%20update%20shot.png) 
 
 ## Table of Contents:
 #### [Description](#description)
